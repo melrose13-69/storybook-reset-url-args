@@ -1,0 +1,40 @@
+{
+  "name": "storybook-reset-url-args",
+  "version": "1.0.0",
+  "description": "Reset url args",
+  "files": [
+    "src",
+    "dist",
+    "register.js"
+  ],
+  "keywords": [
+    "storybook-addons",
+    "appearance"
+  ],
+  "scripts": {
+    "lint": "eslint --ext .ts --ext .tsx src/**",
+    "build": "tsc",
+    "release": "auto shipit"
+  },
+  "peerDependencies": {
+    "@storybook/addons": "^6.0.0",
+    "@storybook/components": "^6.0.0"
+  },
+  "devDependencies": {
+    "@storybook/addons": "6.0.5",
+    "@storybook/components": "6.0.5",
+    "@types/react": "16.9.11",
+    "@typescript-eslint/eslint-plugin": "2.17.0",
+    "@typescript-eslint/parser": "2.17.0",
+    "eslint": "6.5.0",
+    "eslint-config-prettier": "6.9.0",
+    "eslint-config-xo": "0.27.1",
+    "eslint-config-xo-react": "0.20.0",
+    "eslint-plugin-react": "7.14.3",
+    "eslint-plugin-react-hooks": "2.2.0",
+    "react": "16.11.0",
+    "react-dom": "16.11.0",
+    "typescript": "3.7.5"
+  },
+  "license": "MIT"
+}
